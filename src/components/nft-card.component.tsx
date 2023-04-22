@@ -27,24 +27,24 @@ export const NftCard = ({
       </div>
     </a>
     <header>
-      <a href="#" className="text-2xl font-semibold hover:text-primary-cyan">
+      <a href="#" className="text-xl font-semibold hover:text-primary-cyan">
         {name} {tag}
       </a>
     </header>
     <p className="font-light text-primary-soft_blue">{description}</p>
-    <div className="text-sm flex justify-between">
+    <div className="flex justify-between">
       <div className="flex gap-1">
         <img src="/images/icon-ethereum.svg" />
         <span className="text-primary-cyan font-semibold">{eth} ETH</span>
       </div>
       <div className="flex gap-1">
         <img src="/images/icon-clock.svg" />
-        <span className="text-primary-soft_blue">{timeLeft}</span>
+        <span className="text-primary-soft_blue font-semibold">{timeLeft}</span>
       </div>
     </div>
     <hr className="bg-neutral-line  h-px border-0" />
     <footer className="flex items-center gap-4">
-      <img src={author.avatar} className="w-9 h-9 border-2 rounded-full" />
+      <img src={author.avatar} className="w-9 h-9 border rounded-full" />
       <span className="text-primary-soft_blue">
         Creation of{" "}
         <a href="#" className="text-white hover:text-primary-cyan">
