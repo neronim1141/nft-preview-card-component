@@ -22,7 +22,7 @@ function App() {
           <NftCard {...data} />
         </div>
       </main>
-      <footer className="self-center p-1 text-center">
+      <footer className="self-center p-1 text-center absolute bottom-0">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
