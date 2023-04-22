@@ -19,7 +19,7 @@ export const NftCard = ({
   timeLeft,
   author,
 }: NftCardProps) => (
-  <article className="flex flex-col  p-6 bg-neutral-card_bg rounded-xl gap-3">
+  <article className="flex flex-col  p-6 bg-neutral-card_bg rounded-xl gap-5">
     <a href="#" className="relative rounded-xl overflow-hidden group">
       <img src={image} />
       <div className="absolute inset-0 bg-primary-cyan/50 group-hover:grid place-content-center hidden">
