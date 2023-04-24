@@ -1,4 +1,3 @@
-import "./App.css";
 import { NftCard, NftCardProps } from "./components/nft-card.component";
 
 const data: NftCardProps = {
@@ -31,7 +30,7 @@ function App() {
         <br />
         Coded by{" "}
         <a
-          href="https://neronim1141.github.com"
+          href="https://neronim1141.github.io"
           className="underline hover:text-primary-cyan"
         >
           Kacper Kruczek
